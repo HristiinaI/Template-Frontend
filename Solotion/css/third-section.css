@@ -1,17 +1,17 @@
 .last-articles{
     background-color: #FAFAFA;
     width: 100%;
-    height: inherit;
+    height: 676px;
     position: relative;
 }
 .last-articles .last-articles-content{
     margin-left: 165px;
     width: 635px;
-    margin-top: 96px;
+    margin-top: 80px;
     display: inline-block;
 }
 #container {
-    text-align: justify;
+    margin-left: 165px;
     width:100%;
 }
 #container>div {
@@ -31,33 +31,31 @@ span {
     font-size: 0;
     line-height: 0
 }
-.article-creator{
+#container .article-creator{
     font-size: 10px;
     font-weight: 400;
     line-height: 1.8;
-    position:absolute;
-    bottom:10px;
     color: #9597A5;
 }
-.article-title{
+#container .article-title{
     font-size: 16px;
     font-weight: 100;
     line-height: 1.25;
-    position:absolute;
-    bottom:10px;
     color: #2D314D;
 }
 
-.article-description{
+#container .article-title:hover{
+    color: #30C88F;
+}
+
+#container .article-description{
     font-size: 13px;
     font-weight: 400;
     line-height: 1.38;
-    position:absolute;
-    bottom:0px;
     color: #9597A5;
 }
 #container img{
-    width: 255px;
+    width: 100%;
     height: 200px;
     display: block;
 }

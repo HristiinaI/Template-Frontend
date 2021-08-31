@@ -16,14 +16,12 @@
 }
 #container>div {
     padding: 30px;
-    /* margin-bottom: 94px; */
     width: 255px;
     height: 395px;
     vertical-align: top;
     display: inline-block;
     *display: inline;
     zoom: 1;
-    background-color: #FFFFFF;
    
 }
 span {
@@ -31,13 +29,24 @@ span {
     font-size: 0;
     line-height: 0
 }
+
+#container .image-content{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    
+}
+
 #container .article-creator{
     font-size: 10px;
     font-weight: 400;
     line-height: 1.8;
     color: #9597A5;
+    margin: 0px 0 0 24px;
+    padding: 0;
+   
 }
 #container .article-title{
+    padding: 0 24px 0 24px;
     font-size: 16px;
     font-weight: 100;
     line-height: 1.25;
@@ -49,6 +58,7 @@ span {
 }
 
 #container .article-description{
+    padding: 0 24px 24px 24px;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.38;
@@ -58,4 +68,5 @@ span {
     width: 100%;
     height: 200px;
     display: block;
+    border-radius: 5px 5px 0 0;
 }

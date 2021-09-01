@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../css/third-section.css">
         <link rel="stylesheet" type="text/css" href="../css/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../components/header.js" type="text/javascript" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,26 +15,7 @@
     </head>
 
     <body>
-        <header>
-            <div class="nav-div">
-                <nav>
-                    <figure class = "logo">
-                          <img src="../img/logo.svg" alt="" />
-                    </figure>
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
-                    </ul>
-                    <div class="nav-button ">
-                        <button>Request Invite</button>	
-                    </div>
-                </nav>
-            </div>
-        </header>
-
+        <header-component></header-component>
     <section class = "digital-marketing">
         <div class = "content">
             <h1 id = "title"> Next generation digital banking </h1>
@@ -43,7 +25,8 @@
                 saving, budgeting, investing, and much more.
             </p>
             <div class="nav-button first-section">
-                <button>Request Invite</button>	
+                <input class="button"type=button onClick="location.href='request_invate.html'"
+                            value='Request Invite'>	
             </div>
         </div>
         <div class = "image-mockups">
@@ -197,7 +180,8 @@
                 </ul>
             </div>
             <div>
-                <button>Request Invite</button>	
+                <input class="button"type=button onClick="location.href='request_invate.html'"
+                            value='Request Invite'>
                 <div class = "copyright" >
                     <a>© Easybank. All Rights Reserved</a>
                 </div>

@@ -4,61 +4,8 @@ body{
     margin: 0;
 }
 
-header{
-    position: relative;
-    width: 100%;
-    /* display: block; */
-}
 
-.nav-div{
-    position: relative;
-    z-index: 3;
-}
-
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    background-color: #FFFFFF;
-}
-
-nav>ul{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logo{
-    margin-left: 165px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 10px 0 10px 0;
-    /* float: left; */
-/* 
-    margin-left: 196.58px;
-    margin-top: 52px; */
-}
-
-nav>ul>li{
-    /* margin-top: 32px; */
-    padding: 25px 20px;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    font-size:14px;
-    color: #9597A5; 
-    font-family: 'Public Sans', sans-serif;
-    border-bottom: 3px solid transparent;
-}
-
-nav>ul li:hover{
-  color: hsl(233, 26%, 24%);
-  border-bottom: 2px solid #33D35E;
-  
-}
-
-button{
+.button{
     border-radius: 22px;
     float: right;
     margin-top: 8px;

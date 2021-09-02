@@ -1,9 +1,12 @@
+
+//by extending the generic class HTMLElement can create any kind of element 
+
 class Header extends HTMLElement {
     constructor() {
       super();
     }
 
-    
+  //runs each time sutom elementi is inserted  
   connectedCallback() {
     this.innerHTML = 
     `
@@ -82,5 +85,5 @@ class Header extends HTMLElement {
   }
 
 
-
+// register your element
   customElements.define('header-component', Header);

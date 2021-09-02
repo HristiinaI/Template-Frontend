@@ -8,6 +8,9 @@
         <link rel="stylesheet" type="text/css" href="../css/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="../components/header.js" type="text/javascript" defer></script>
+        <link rel="stylesheet" type="text/css" href="../css/request_invite.css">
+        <script src="../components/footer.js" type="text/javascript" defer></script>
+
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,4 +19,31 @@
 
 <body>
     <header-component></header-component>
+    <div class="container">
+        <h1 id = "request-title">Request to be part of Easybank</h1>
+        <form class = "inline-form">
+            <div  style="float:left;">
+                <label class="fName" for="First_Name">First Name</label>
+                <input name="first_name" id="First_Name" type="text"/>
+            </div>
+            <div  style="float:left;">
+                <label class="lName" for="Name">Last Name</label>
+                <input  name="last_name" id="Last_Name" type="text">
+            </div>
+
+            <br style="clear:both;" />
+
+            <label for="email"> Email</label>
+            <input name="email" id="email" type="email"/>
+
+            <label for="country"> Country</label>
+            <input name="country" id="country" type="text"/>
+
+            <label for="post-code"> Post Code</label>
+            <input name="post-code" id="post-code" type="text"/>
+        </form>
+        <input class="button-request"type=button onClick="alert(message)"
+        value='Submit'>
+    </div>
+    <footer-component></footer-component>
 </body>
